@@ -53,7 +53,7 @@ export default function SettingsPage() {
           {/* 1. Profile Information Section */}
           <section className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm">
             <h3 className="font-bold text-slate-800 text-base mb-1">Profile Information</h3>
-            <p className="text-slate-400 text-[11px] mb-8">Update your account's profile information and email address.</p>
+            <p className="text-slate-400 text-[11px] mb-8">Update your account profile information and email address.</p>
             
             <div className="flex flex-col md:flex-row gap-10">
               {/* Profile Photo */}
