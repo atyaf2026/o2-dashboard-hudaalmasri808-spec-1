@@ -57,7 +57,7 @@ const Sidebar = () => {
         <div className="flex items-center gap-3 mb-6 px-2">
           <div className="w-10 h-10 rounded-full overflow-hidden bg-gray-100 border border-gray-50 shrink-0">
             <img 
-              src="/Pucture.jpg" 
+              src="Pucture.jpg" 
               alt="Huda Almasri Profile" 
               className="w-full h-full object-cover" 
             />

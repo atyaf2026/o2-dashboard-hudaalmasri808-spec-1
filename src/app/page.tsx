@@ -12,7 +12,7 @@ export default function HomePage() {
       
       {/* 1. الترحيب (Header Section) */}
       <div className="flex flex-col gap-1 mb-2">
-        <h1 className="text-2xl font-bold text-[#1e293b]">Welcome back, Mohammed</h1>
+        <h1 className="text-2xl font-bold text-[#1e293b]">Welcome back, Huda</h1>
         <p className="text-slate-400 text-sm">Here is what happening with your projects today.</p>
       </div>
 
