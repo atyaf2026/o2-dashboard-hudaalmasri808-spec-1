@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
-
+import { DashboardLayout } from "@/src/components/layout/DashboardLayout";
 const openSans = Open_Sans({
   variable: "--font-open-sans",
   subsets: ["latin"],
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description: "Training dashboard for O2",
 };
 
-import { DashboardLayout } from "@/components/layout/DashboardLayout";
+
 
 export default function RootLayout({
   children,
