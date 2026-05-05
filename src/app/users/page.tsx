@@ -10,7 +10,7 @@ export default function UsersPage() {
   return (
     <div className="space-y-6 animate-in fade-in duration-500 pb-10">
       
-      {/* 1. Header Section */}
+ 
       <div className="flex justify-between items-start">
         <div>
           <h1 className="text-2xl font-bold text-[#1e293b]">Users Management</h1>
@@ -26,7 +26,6 @@ export default function UsersPage() {
         </div>
       </div>
 
-      {/* 2. الأربع بطاقات العلوية (Stats Cards) */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {[
           { label: 'TOTAL USERS', val: '1,284', sub: '+12%', sCol: 'emerald' },
@@ -45,7 +44,7 @@ export default function UsersPage() {
         ))}
       </div>
 
-      {/* 3. الجدول (Main Table) */}
+  
       <div className="bg-white rounded-3xl border border-slate-100 shadow-sm overflow-hidden">
         <table className="w-full text-left">
           <thead className="bg-white border-b border-slate-50">
@@ -96,9 +95,9 @@ export default function UsersPage() {
         </div>
       </div>
 
-      {/* 4. الجزء السفلي: Role Permissions & Invite Section */}
+     
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* Role Permissions */}
+       
         <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm">
            <h3 className="font-bold text-slate-800 text-base mb-6">Role Permissions</h3>
            <div className="space-y-4">
@@ -117,7 +116,6 @@ export default function UsersPage() {
            </div>
         </div>
 
-        {/* Invite Entire Cohort */}
         <div className="bg-[#5c4df3] p-8 rounded-3xl shadow-xl shadow-indigo-200 relative overflow-hidden flex flex-col justify-center">
            <div className="relative z-10">
               <h3 className="font-bold text-white text-xl mb-2">Invite your entire cohort</h3>
@@ -128,7 +126,7 @@ export default function UsersPage() {
                 Bulk Upload Users
               </button>
            </div>
-           {/* دوائر ديكور في الخلفية */}
+   
            <div className="absolute top-[-20%] right-[-10%] w-48 h-48 bg-white/10 rounded-full blur-3xl"></div>
            <div className="absolute bottom-[-20%] left-[-5%] w-32 h-32 bg-indigo-400/20 rounded-full blur-2xl"></div>
         </div>

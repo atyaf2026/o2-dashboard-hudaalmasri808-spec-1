@@ -10,15 +10,15 @@ export default function HomePage() {
   return (
     <div className="space-y-6 animate-in fade-in duration-500 pb-10">
       
-      {/* 1. الترحيب (Header Section) */}
+   
       <div className="flex flex-col gap-1 mb-2">
         <h1 className="text-2xl font-bold text-[#1e293b]">Welcome back, Huda</h1>
         <p className="text-slate-400 text-sm">Here is what happening with your projects today.</p>
       </div>
 
-      {/* 2. البطاقات العلوية (Top Stats Cards) - كما في الفيجما */}
+    
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
-        {/* Total Revenue */}
+  
         <div className="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm relative overflow-hidden">
           <div className="flex justify-between items-start mb-4">
             <div className="p-2 bg-emerald-50 text-emerald-600 rounded-lg"><TrendingUp size={18}/></div>
@@ -29,7 +29,7 @@ export default function HomePage() {
           <div className="absolute bottom-0 left-0 w-full h-1 bg-emerald-500/20"></div>
         </div>
 
-        {/* Active Sessions */}
+
         <div className="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm">
           <div className="flex justify-between items-start mb-4">
             <div className="p-2 bg-blue-50 text-blue-600 rounded-lg"><Zap size={18}/></div>
@@ -40,7 +40,7 @@ export default function HomePage() {
           <p className="text-[10px] text-slate-400 mt-1 flex items-center gap-1 italic">42 users online now</p>
         </div>
 
-        {/* System Performance */}
+      
         <div className="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm flex flex-col justify-between">
           <div className="flex justify-between items-center mb-2">
             <div>
@@ -60,9 +60,9 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* 3. الوسط: الرسم البياني الكبير و الطلبات الأخيرة */}
+     
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
-        {/* Performance Over Time */}
+     
         <div className="lg:col-span-2 bg-white p-8 rounded-3xl border border-slate-100 shadow-sm">
            <div className="flex justify-between items-center mb-8">
               <div>
@@ -74,7 +74,7 @@ export default function HomePage() {
               </button>
            </div>
            
-           {/* محاكاة للرسم البياني الموجي في الفيجما */}
+          
            <div className="relative h-48 w-full bg-slate-50/50 rounded-2xl mb-8 overflow-hidden">
               <svg className="absolute bottom-0 w-full h-full" viewBox="0 0 400 100" preserveAspectRatio="none">
                 <path d="M0,80 C100,20 200,120 400,40 L400,100 L0,100 Z" fill="url(#gradient)" fillOpacity="0.1" />
@@ -103,7 +103,6 @@ export default function HomePage() {
            </div>
         </div>
 
-        {/* Recent Orders */}
         <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm">
            <div className="flex justify-between items-center mb-6">
               <h3 className="font-bold text-slate-800 text-base">Recent Orders</h3>
@@ -135,7 +134,6 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* 4. الجدول السفلي: Asset Distribution */}
       <div className="bg-white rounded-3xl border border-slate-100 shadow-sm overflow-hidden">
         <div className="p-8 flex justify-between items-center border-b border-slate-50">
           <div>

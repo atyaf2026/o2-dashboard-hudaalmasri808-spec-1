@@ -1,5 +1,5 @@
 import React from 'react';
-import Sidebar from './Sidebar'; // بدون أقواس
+import Sidebar from './Sidebar'; 
 import { Header } from './Header';
 
 export function DashboardLayout({ children }: { children: React.ReactNode }) {
