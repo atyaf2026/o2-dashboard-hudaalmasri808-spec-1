@@ -1,6 +1,11 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
+@import "tailwindcss";
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  color: #1e293b;
+}
 
 @custom-variant dark (&:is(.dark *));
 
